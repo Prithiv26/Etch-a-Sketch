@@ -68,6 +68,9 @@ function makeDiv()
                         opacity += 0.1;
                     }
                 }
+                else{
+                    gridDiv.style.opacity = opacity.toString();
+                }
             }
         );
         }
