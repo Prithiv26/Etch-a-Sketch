@@ -1,0 +1,70 @@
+
+ body{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+ }
+ .bigContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    margin-left: 100px;
+    
+ }
+ .gridContainer{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 20px solid blue;
+    border-radius: 15px;
+    background: 7px;
+    flex-wrap: wrap;
+    background-color: white;
+ }
+
+ .gridDiv{
+    box-sizing: border-box;
+    border: 1px solid black;
+ }
+ 
+ #clear{
+   display: block;
+ }
+
+ .inputBox{
+   display: flex;
+   padding: 20px;
+   background-color: aqua;
+   gap: 5px;
+   border: 2px solid black;
+ }
+
+ label{
+   font-size: x-large;
+ }
+
+ #clear,#random,#darken{
+   font-size: x-large;
+   background-color: rgb(0, 255, 255);
+   width: fit-content;
+ }
+ .inputContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-left: 30px;
+ }
+ .colorBox{
+   padding: 20px;
+   background-color: aqua;
+   border: 2px solid black;
+ }
+
+ h1{
+  margin-top: 10px;
+ }
